@@ -6,7 +6,7 @@ function image_from_code(picture: String): Image {
     for (let i = 0; i < width; i++) {
         for (let j = 0; j < height; j++) {
             output_image.setPixel(i, j, parseInt(picture.slice(0, 2)));
-            picture.slice(1);
+            picture = picture.slice(1);
         }
     }
     return output_image;
