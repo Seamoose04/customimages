@@ -2,7 +2,7 @@
 * Custom blocks
 */
 
-//% color=#ace3bb icon="📷"
+//% color=#ace3bb icon="ImgCon"
 namespace ImageConverter {
     //% block
     export function image(picture: String): Image {
